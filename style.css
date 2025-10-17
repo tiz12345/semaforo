@@ -1,0 +1,21 @@
+/* Estilo geral */
+body {
+  height: 100vh;
+  margin: 0;
+}
+
+/* Estilo do título */
+h1 {
+  text-shadow: 2px 2px 4px #f37ab7;
+}
+
+/* Área do semáforo */
+.semaforo {
+  width: 100px;
+}
+
+/* Aparência dos botões */
+button {
+  font-weight: bold;
+  box-shadow: 0 3px 6px rgba(49, 49, 49, 0.3);
+}

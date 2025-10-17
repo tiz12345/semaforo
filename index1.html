@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Semáforo Manual</title>
+
+  <!-- Bootstrap 4 -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+  <!-- Ficheiro CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-dark">
+  <!-- Container principal -->
+  <div class="container text-center mt-5">
+    <h1 class="text-light mb-4">Sistema de Semáforo Manual</h1>
+
+    <!-- Imagem do semáforo -->
+    <div class="semaforo mx-auto mb-4">
+      <img id="imgSemaforo" src="imagens/desligado.png" alt="Semáforo" class="img-fluid">
+    </div>
+
+    <!-- Botões de controlo -->
+    <div class="botoes">
+      <button class="btn btn-danger m-2" onclick="ligarVermelho()">Vermelho</button>
+      <button class="btn btn-success m-2" onclick="ligarVerde()">Verde</button>
+      <button class="btn btn-warning m-2" onclick="ligarAmarelo()">Amarelo</button>
+      <button class="btn btn-secondary m-2" onclick="desligar()">Desligar</button>
+    </div>
+  </div>
+
+  <!-- Ficheiro JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
